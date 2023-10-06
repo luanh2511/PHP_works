@@ -1,0 +1,8 @@
+<?php
+ $a=1;
+ $b=3;
+ $c=5;
+ $res1=++$b - $a;
+ $res2=$c-- + $a;
+ $res3=--$a + $c++;
+ echo "variavel c=".$c." Res3= ". $res3;

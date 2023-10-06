@@ -1,0 +1,29 @@
+<?php
+
+$i = "j";
+switch ($i) {
+    case 'a':
+        echo "A é uma vogal";
+        break;
+        
+    case 'e':
+        echo "E é uma vogal";
+        break;
+        
+    case 'i':
+        echo "I é uma vogal";
+        break;
+        
+    case 'o':
+        echo "O é uma vogal";
+        break;
+        
+    case 'u':
+        echo "U é uma vogal";
+        break;
+    
+    default:
+        echo "$i é uma consoante";
+        break;
+}
+?>

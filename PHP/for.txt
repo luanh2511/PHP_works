@@ -1,0 +1,21 @@
+<?php
+
+$count =0;
+for($count=0;$count <4; $count++){
+    $x = 101;
+    while ($x < 0 || $x > 100){
+          echo "<br>";
+          echo "o numero é: $x";    
+          print("\n");    
+          $x = rand(0, 100);    
+          echo "o numero correto é: $x";
+          print("\n");
+    } 
+
+    for($i=$x;  $i<=100; $i++){
+        if ($x%2==1) {
+          echo " $x, ";    
+        }
+        $x=$x+1;
+    }
+}

@@ -1,0 +1,18 @@
+<?php
+
+$valor=0;
+$numero[]=array();
+
+for($i=0;$i<20;$i++){
+    $numero[$i] = rand (0,9);
+    
+    echo "Número Aleatorio: ",$numero[$i],"\n";
+}
+
+$cont=0;
+$busca=8;
+
+for($i=0;$i<20;$i++){
+    if($numero[$i] == $busca)
+      echo "\nO Numero ",$busca," foi encontrado ",++$cont," vez(es)!";
+}

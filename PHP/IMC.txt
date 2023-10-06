@@ -1,0 +1,28 @@
+<?php
+
+$peso = 150;
+$altura = 1.82;
+$IMC = $peso/ ($altura * $altura);
+
+if($IMC <= 18.5){
+echo "IMC: Abaixo do peso normal";
+}
+elseif ($IMC > 18.5 && $IMC <= 24.9){
+echo "IMC: Peso nomal";
+}
+elseif($IMC > 25 && $IMC <= 29.9){
+echo "IMC: Excesso de peso";
+}
+elseif($IMC > 30 && $IMC <= 34.9){
+echo "IMC: Obesidade Classe I";
+}
+elseif($IMC > 35 && $IMC <= 39.9){
+echo "IMC: Obesidade Classe II";
+}
+
+else {
+echo "IMC: Obesidade Classe III";
+}
+
+
+?>

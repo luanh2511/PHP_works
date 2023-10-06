@@ -1,0 +1,32 @@
+Exercicio 01:
+
+Exercicio 02:
+
+Exercicio 03:
+
+Exercicio 04:
+
+<?php
+
+$i = 15;
+$x = 20;
+$j = 18;
+$media = $i + $x + $j / 3;
+
+echo "A media das idades e: $media";
+
+?>
+
+Exercicio 05:
+
+
+
+Exercicio 06:
+
+Exercicio 07:
+
+Exercicio 08:
+
+Exercicio 09:
+
+Exercicio 10:

@@ -1,0 +1,72 @@
+A)
+<?php
+echo "<h1> Dados Recebidos </h1><br>";
+echo
+echo
+$_GET['nome'];
+"<br>";
+$_GET['sobrenome'];
+echo echo
+"<br>";
+echo $_GET['pais'];
+echo
+"<br>";
+echo $_GET['sex'];
+echo "<br>"; echo $_GET['fav lang'1;
+echo "<br>";
+print_r($ondeestuda); echo "<br>";
+foreach ($onde estuda as $escola) {
+echo "<br/>".$escola;
+} echo "<br>";
+?>
+
+B) 
+<?php
+echo "<h1> Dados Recebidos echo $_GET['nome'];
+</h1><br>";
+echo "<br>"; echo $_GET['sobrenome'];
+echo "<br>";
+echo $_GET['pais'];
+echo "<br>"; echo $_GET['sexo'];
+echo "<br>";
+echo $_GET['fav_lang'];
+echo "<br>";
+Sondeestuda $_GET['onde estuda']; echo "<br>";
+foreach ($ondeestuda as Sescola) {
+echo "<br/>".Sescola;
+echo "<br>";
+?>
+
+
+C)
+<?php
+echo "<h1> Dados Recebidos </h1><br>";
+echo $_GET['nome']; echo "<br>";
+echo $_GET['sobrenome"];
+echo "<br>";
+echo $_GET['pais'];
+echo "<br>";
+echo $_GET['sexo'];
+echo "<br>"; Slinguagem = $_GET['fav_lang'];
+print_r(Slinguagem);
+foreach($linguagem as $lin){
+echo "<br/>".$lin;
+}
+echo "<br>";
+echo $_GET['onde estuda'];
+?>
+
+D)
+<?php
+echo "<h1> Dados Recebidos </h1><br>";
+echo $_GET['nome'];
+echo "<br>";
+echo $_GET['sobrenome'];
+echo "<br>";
+echo $_GET['pais'];
+echo "<br>";
+echo $_GET['sexo'];
+echo "<br>";
+echo $_GET['fav_lang'];
+echo $_GET['onde_estuda'];
+?>

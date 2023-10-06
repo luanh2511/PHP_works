@@ -1,0 +1,26 @@
+<?php
+print("\n");
+echo "Exercício 5";
+print("\n");
+for ($i=10;$i>=1;$i--) {
+	echo $i;
+	print("\n");
+}
+
+print("\n");
+echo "Exercício 6";
+print("\n");
+for ($i=10;$i<=18;$i=$i+2){
+    echo $i;
+	print("\n");
+}
+print("\n");
+echo "Exercício 7";
+print("\n");
+$numero= rand(0,10);
+ echo "número conseguido =",$numero;
+ print("\n");
+for ($i=1;$i<=$numero;$i++){
+    echo $i;
+ print("\n");
+}

@@ -1,0 +1,8 @@
+<?php
+$vetor = array("CHEVROLET","Fiat","Honda","VW","BMV");
+$vetor[]="Honda";
+for ($i=0; $i<=5; $i++){
+    echo $vetor[$i];
+    print("\n");
+}
+var_dump($vetor);

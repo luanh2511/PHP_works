@@ -1,0 +1,20 @@
+<?php
+$idade1=60;
+$idade2=80;
+$idade3=20;
+$mediatotas=$idade1 + $idade2 +$idade3;
+$mediatotas=$mediatotas/3;
+
+
+
+
+$media=0;
+for($i=0;$i<3;$i++){
+    $idade = rand (0,100);
+    echo "idade= ", $idade;
+    $media = $media + $idade;
+    
+    
+}
+print ("\n");
+echo"medias das idades", $media/3;
